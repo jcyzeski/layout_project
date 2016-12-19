@@ -1,0 +1,115 @@
+body {
+	
+}
+
+/* HEADER */
+
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left:0;
+	background-color: lightgray;
+	border-bottom: 1px solid black;
+}
+
+.nav_bar {
+	position: absolute;
+	right: 10px;
+	top: 25px;
+}
+
+.nav_link {
+	padding: 0px 10px;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+a h1 {
+	color:black;
+}
+
+/* SEARCH BOX */
+
+.input {
+	margin-top: 200px;
+	margin-left: 200px;
+}
+
+input {
+	font-size: 25px;
+	width: 50%;
+	height: 30px;
+}
+
+input, button {
+	vertical-align: middle;
+}
+
+.image {
+	height: 25px;
+	width: 25px;
+}
+
+.search_button {
+	background-color: white;
+	border:1px solid gray;
+	border-radius: 10%;
+
+}
+
+/* SEARCH NAVIGATION BAR */
+
+
+
+.nav_bar_search {
+	font-size: 0px;
+	margin-top: 40px;
+	margin-left: 200px;
+	
+}
+
+.search_link {
+	display: inline-block;
+	font-size: 20px;
+	border:1px solid gray;
+}
+
+nav span {
+	font-size: 20px;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+}
+
+nav span, .search_link {
+	padding: 10px;
+}
+
+/* MAIN CONTENT */
+
+main ul {
+	list-style: none;
+	margin-left: 150px;
+	margin-top: 30px;
+	line-height: 50px;
+}
+
+.listing {
+	color: lightgray;
+}
+
+.job_link {
+	color: blue;
+}
+
+.job_link:hover {
+	text-decoration: underline;
+}
+
+.listing, .job_link {
+	padding: 10px;
+	font-size: 20px;
+}
+
